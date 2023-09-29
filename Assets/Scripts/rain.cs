@@ -53,5 +53,10 @@ public class rain : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        else if (collision.gameObject.tag == "rtan")
+        {
+            Destroy(gameObject);
+            GameManager.I.addScore(score);
+        }
     }
 }
