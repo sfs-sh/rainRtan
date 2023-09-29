@@ -17,7 +17,7 @@ public class rain : MonoBehaviour
 
         transform.position = new Vector3(x, y, 0);
 
-        type = Random.Range(1, 4);
+        type = Random.Range(1, 5);
 
         if (type == 1)
         {
@@ -37,6 +37,13 @@ public class rain : MonoBehaviour
             score = 1;
             GetComponent<SpriteRenderer>().color = new Color(150 / 255f, 150 / 255f, 255 / 255f, 255 / 255f);
         }
+        else if (type == 4)
+        {
+            size = 0.6f;
+            score = -5;
+            GetComponent<SpriteRenderer>().color = new Color(255 / 255f, 100 / 255f, 255 / 255f, 255 / 255f);
+        }
+
 
         transform.localScale = new Vector3(size, size, 0);
     }
