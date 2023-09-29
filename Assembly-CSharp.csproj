@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\rtan.cs" />
+    <Compile Include="Assets\Scripts\panel.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\rain.cs" />
   </ItemGroup>
