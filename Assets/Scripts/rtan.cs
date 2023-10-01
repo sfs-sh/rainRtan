@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class rtan : MonoBehaviour
 {
-    float direction = 0.1f;
+    float direction = 0.5f;
     float toward = 1.0f;
     
     // Start is called before the first frame update
